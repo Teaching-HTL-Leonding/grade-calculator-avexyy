@@ -48,17 +48,17 @@ if( <hier müssten die erreichten Punkte der Hausübung stehen> < 20)
     percentageTwo = 100d * totalPoints / possiblePoints;
 
     if(percentageTwo >= 89) {betterGrade = 1;}
-    else if(percentageTwo >= 76 && percentageTwo < 89) {betterGrade = 2;}
-    else if(percentageTwo >= 63 && percentageTwo < 76) {betterGrade = 3;}
-    else if(percentageTwo >= 50 && percentageTwo < 63) {betterGrade = 4;}
+    else if(percentageTwo >= 76) {betterGrade = 2;}
+    else if(percentageTwo >= 63) {betterGrade = 3;}
+    else if(percentageTwo >= 50) {betterGrade = 4;}
     else {betterGrade = 5;}
 }
 */
 
 if(percentage >= 89) {grade = 1;}
-else if(percentage >= 76 && percentage < 89) {grade = 2;}
-else if(percentage >= 63 && percentage < 76) {grade = 3;}
-else if(percentage >= 50 && percentage < 63) {grade = 4;}
+else if(percentage >= 76) {grade = 2;}
+else if(percentage >= 63) {grade = 3;}
+else if(percentage >= 50) {grade = 4;}
 else {grade = 5;}
 
 System.Console.WriteLine($"Your achieved grade is: {grade} ");
